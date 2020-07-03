@@ -8,10 +8,7 @@ function updatePlaylist(playList, artistName, songTitle){
 }
 
 function removeFromPlaylist(playList, artistName){
-  console.log(playList);
-  console.log(artistName);
-  console.log(playList.artistName);
-  console.log("-- --- --");
   delete playList[artistName];
-  console.log(playList);
+  // apparently not "playlist.artistName" like the example said.
+  // wonder why. i suppose it makes sense to mirror here. why didn't the example mirror then?
 }
